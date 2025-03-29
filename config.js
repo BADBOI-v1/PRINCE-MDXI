@@ -1,4 +1,4 @@
-prince_md-GBlWXJKY#KV4jEGTOW5sDrvtp8SEeiMMwBoXFUYzIYr95V1aXKZ4const fs = require('fs');
+const fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
 
